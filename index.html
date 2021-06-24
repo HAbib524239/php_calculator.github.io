@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+	
+	
+	
+	
+</head>
+<body>
+	<div class="frm">
+	  <div class="sfirm">
+		<form class="cal"action="inc/calcuator.php"method="POST">
+         <table class="tab" border='2'style="width:400px"> 
+		     <tr class="edt"> 
+			    <td  Colspan="4"style="border-style: none"> 
+				
+				
+				 <?php  
+                      if(isset($_POST['num1'])){
+						  
+						  echo $numberone;
+						  
+					  }
+					  if(isset($_POST['num2'])){
+						  
+						  echo $numbertwo;
+						  
+					  }
+					   if(isset($_POST['num3'])){
+						  
+						  echo $numberthre;
+						  
+					  }
+					 if(isset($_POST['num4'])){
+						  
+						  echo $numberfour;
+						  
+					  }
+					  if(isset($_POST['num5'])){
+						  
+						  echo $numberfive;
+						  
+					  }
+					   if(isset($_POST['num6'])){
+						  
+						  echo $numbersix;
+						  
+					  }
+					   if(isset($_POST['num7'])){
+						  
+						  echo $numberseven;
+						  
+					  }
+					  if(isset($_POST['num8'])){
+						  
+						  echo $numbereight;
+						  
+					  }
+					  if(isset($_POST['num9'])){
+						  
+						  echo $numbernine;
+						  
+					  }
+					  if(isset($_POST['num0'])){
+						  
+						  echo $numberzero;
+						  
+					  }
+					  if(isset($_POST['add'])){
+						  
+						  echo $addition;
+						  
+					  }
+					   if(isset($_POST['sub'])){
+						  
+						  echo $subtraction;
+						  
+					  }
+					  if(isset($_POST['multi'])){
+						  
+						  echo $multipacation;
+						  
+					  }
+					   if(isset($_POST['devide'])){
+						  
+						  echo $devided;
+						  
+					  }
+					  if(isset($_POST['bagses'])){
+						  
+						  echo $bagses;
+						  
+					  }
+					  
+					  
+					 
+				 ?>
+				
+				
+				
+				</td>
+			 </tr>
+			 <tr class="edt"> 
+				<td Colspan="4"style="border-style: none"> </td>
+			</tr>
+			<tr> 
+				<td><input type="button"value="1"name="num1" /></td>
+				<td><input type="button"value="2"name="num2" /></td>
+				<td><input type="button"value="3"name="num3" /></td>
+				<td><input type="button"value="4"name="num4" /></td>
+			</tr>
+		    <tr> 
+				<td><input type="button"value="5"name="num5" /></td>
+				<td><input type="button"value="6"name="num6" /></td>
+				<td><input type="button"value="7"name="num7" /></td>
+				<td><input type="button"value="8"name="num8" /></td>
+			</tr>
+		    <tr> 
+				<td><input type="button"value="9"name="num9" /></td>
+				<td><input type="button"value="0"name="num0" /></td>
+				<td><input type="button"value="+"name="add" /></td> 
+				<td><input type="button"value="-"name="sub" /></td>
+			</tr>
+			<tr> 
+				<td><input type="button"value="*"name="multi" /></td>
+				<td><input type="button"value="/" name="devide"/></td>
+				<td><input type="button"value="%"name="bagses" /></td>
+				<td><input type="button"value="="name="equal" /></td>
+			</tr>
+		 </table>
+		</form>
+	</div>
+	</div>
+</body>
+</html>
